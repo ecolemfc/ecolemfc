@@ -1,0 +1,58 @@
+@media screen and (max-width: 800px) {
+        header, .content{
+            width: 100%;
+            display: block;
+        }
+        header{
+            background-image: url('../images/banner.jpg');
+            background-repeat: no-repeat;
+            background-size: 100%;
+            height: 100px;
+            margin: 0px auto;
+            background-color: blue;
+            border: 2px solid;
+        }
+        header h1{
+            position: absolute;
+            color: white;
+            text-align: center;
+            font-size: 2em;
+            left: 43%;
+            top: 8%;
+            margin: 0px auto;
+        
+        }
+        header h2{
+            position: absolute;
+            color: white;
+            text-align: center;
+            font-size: 1.5em;
+            left: 10%;
+            top: 15%;
+            margin: 0px auto;
+        
+        }
+        .grand-section .accueil{
+            display: block;
+            width: 100%;
+            margin: 0px auto;
+        }
+        .coutenu{
+            width: 100%;
+        }
+        aside{
+            display: none;
+        }
+        .grand-section .accueil .images-video{
+            width: 100%;
+            margin: 0.5em auto;
+        }
+        .grand-section .accueil .details{
+            width: 100%;
+            margin: 0.5em auto;
+        }
+        footer{
+            margin: 0px auto;
+            width: 100%;
+        }
+    }

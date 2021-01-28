@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/menu.css">
+        <link rel="stylesheet" href="css/mobile.css">
+    </head>
+    <body>
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Home</a>
+            <a href="#news" style="display: none;">News</a>
+            <a href="#contact">Contact</a>
+            <div class="dropdown" style="display: none;">
+              <button class="dropbtn">Articles
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content" style="display: none;">
+                <a href="#">html et css</a>
+                <a href="#">powerpoint</a>
+                <a href="#">Gagner d'argent</a>
+              </div>
+            </div> 
+            <a href="#about">About</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+          </div>
+        <header>
+            <div style="margin: auto; width: 60%;">
+                <h1>EMFC</h1>
+                <h2>Ecole Mixes des Frères Chretiens</h2>
+            </div>
+        </header>
+        <div class="container">
+            <div class="coutenu">
+                <div class="content">
+                    <div class="content-section">
+                        <section class="grand-section">
+                            <!--Premier partie de l'accueil-->
+                            <section class="accueil" style="display: none;">
+                                <div class="image-video">
+                                    <img src="images/intro court.jpg" alt="inrou court">
+                                </div>
+                                <div class="details">
+                                    <h1>voicin mon site de presentation ecole des enfants</h1>
+                                </div>
+                            </section>
+                            <!--fin Premier partie de l'accueil-->
+
+                            <!--Deuxiemes partie de contact-->
+                            <section class="accueil" id="contact">
+                                <div class="image-video">
+                                    <img src="images/contact.jpg" alt="inrou court">
+                                </div>
+                                <div class="details">
+                                    <h1>Envoyer nous un message via mail</h1>
+                                    <h2>Nous sommes toujours disponible 24/24</h2><hr/>
+                                    <form>
+                                        <label>Votre numéro</label>
+                                        <input type="text" name="" id="number">
+                                        <label>Votre numéro</label>
+                                        <input type="text" name="" id="number">
+                                        <label>Votre numéro</label>
+                                        <textarea></textarea>
+                                        <input type="button" value="Envoyer le message" id="button-send">
+                                    </form>
+                                </div>
+                                <div class="adress">
+                                 <h1>Our Adress</h1>   
+                                    <ul>
+                                        <li>Jacmel, HAITI</li>
+                                        <li>Route de la saline</li>
+                                        <li>(+509) 38758855</li>
+                                        <li>ecolemfc@gmail.com</li>
+                                    </ul>
+                                </div>
+                            </section>
+                            <!--fin Deuxiemes partie de contact-->
+                        </section>
+                        <aside style="display: none;">
+
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer></footer>
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+            </script>
+
+    </body>
+</html>
